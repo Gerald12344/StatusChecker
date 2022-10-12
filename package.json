@@ -1,0 +1,24 @@
+{
+    "name": "statuschecker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "npm run build && node build/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/express": "^4.17.14",
+        "@types/node": "^18.8.4",
+        "typescript": "^4.8.4"
+    },
+    "dependencies": {
+        "axios": "^1.1.2",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2"
+    }
+}
